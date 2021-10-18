@@ -1,0 +1,105 @@
+#search input {
+  font-size: 32px;
+  text-align: center;
+  color: #194491;
+  outline: none;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 400px;
+  padding: 6.8px 20px;
+}
+
+#search button {
+  font-size: 24px;
+  padding: 10px 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+}
+
+#search {
+  background-color: #194491;
+  padding: 9px 9px;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  position: fixed;
+  top: 10%;
+  left: 25%;
+}
+
+.fas {
+  color: #194491;
+}
+
+#body_section {
+  background-image: url('../../Utiles/ground.jpeg');
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  padding-top: 100px;
+}
+
+/* Card */
+
+#teams_card_wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 170px;
+  flex-wrap: wrap;
+  padding-bottom: 200px;
+}
+.card {
+  width: 150px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  text-align: center;
+  color: #194491;
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.card p {
+  position: absolute;
+  bottom: 0;
+  font-size: 18px;
+  background-color: #194491;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.card img {
+  padding-top: 15px;
+}
+
+#loader {
+  font-size: 100px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+/* Search */
+
+#search_data_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  justify-content: space-around;
+  padding: 0 50px;
+}
+
+#heading1 {
+  font-size: 40px;
+  color: white;
+  margin-left: 22px;
+  margin-bottom: 45px;
+  letter-spacing: 6px;
+  display: block;
+  width: 100%;
+}

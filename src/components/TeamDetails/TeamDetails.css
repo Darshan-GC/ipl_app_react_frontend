@@ -1,0 +1,106 @@
+#team_Details {
+  background-image: url('../../Utiles/TeamDetails.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 150px;
+}
+
+#info_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: thistle;
+  width: 550px;
+  border-radius: 10px;
+}
+
+#info_wrap img {
+  margin-right: 50px;
+}
+
+#info p span {
+  font-weight: bold;
+  color: #051a83;
+}
+
+#info p {
+  color: #194491;
+  margin: 8px 10px;
+  letter-spacing: 1.3px;
+}
+
+#heading {
+  font-size: 40px;
+  color: white;
+  margin-left: 60px;
+  margin-top: 45px;
+  letter-spacing: 6px;
+  display: block;
+  width: 100%;
+}
+
+/* Player Card */
+
+#teamDetails_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15px 50px;
+}
+
+.player_card {
+  width: 200px;
+  background-color: thistle;
+  border-radius: 10px;
+  margin: 0 10px 10px 10px;
+  cursor: pointer;
+}
+
+.player_info {
+  padding: 10px;
+  letter-spacing: 1.6px;
+  padding-left: 18px;
+}
+
+.player_info p {
+  color: #194491;
+  font-size: 14px;
+}
+
+.player_info p span {
+  font-weight: bold;
+  margin-right: 5px;
+  color: #051a83;
+}
+
+.player_info h4 {
+  color: #002f61;
+}
+
+/* Loader */
+
+#loader1 {
+  display: block;
+  font-size: 100px;
+  position: absolute;
+  background-color: #194491;
+  width: 100%;
+  height: 100vh;
+  top: 0%;
+}
+
+#loader1 i {
+  color: white;
+  position: absolute;
+  top: 47%;
+  left: 47%;
+}
+
+#loading_Players_Data {
+  font-size: 40px;
+  margin: 0 auto;
+  padding-bottom: 187px;
+  padding-top: 170px;
+  color: white;
+}
